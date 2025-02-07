@@ -9,7 +9,7 @@ else: print(f"{year} is not a leap year. ")
 #A program to check whether a letter is a consonant or a vowel
 
 letter =str(input("Enter a letter: "))
-if letter == ("a","e","i","o","u"):
+if letter == 'a'or letter== 'e' or letter == 'i' or letter == 'o' or letter == 'u':
     print(f" letter '{letter}' is a vowel!")
 else:
     print(f"The letter '{letter}' is a consonant!")

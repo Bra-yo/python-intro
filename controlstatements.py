@@ -1,4 +1,4 @@
-temperature = 10
+temperature =float(input("Enter the current temperature:"))
 
 if temperature > 25 :
     print("It is too hot")
@@ -6,9 +6,9 @@ else:
     print("it is too cold")
 
 #A program that returns the smallest number
-first = 90
-second = 78
-third = 34
+first = int(input("Enter the first number:"))
+second = int(input("Enter the second number:"))
+third = int(input("Enter the third number:"))
 
 
 if first < second and first < third :
